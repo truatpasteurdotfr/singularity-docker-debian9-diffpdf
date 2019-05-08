@@ -5,15 +5,15 @@ Run diffpdf from the container without really installing it.
 
 Running without installation:
 ```
-singularity run shub://truatpasteurdotfr/singularity-docker-debian9-diffpdf
+singularity run library://tru/default/singularity-docker-debian9-diffpdf
 ```
 Building:
 ```
-sudo singularity build singularity-docker-debian9-diffpdf.simg Singularity
+sudo singularity build singularity-docker-debian9-diffpdf.sif Singularity
 ```
 or use the provided `build.sh` script.
 
 Download and rename:
 ```
-singularity pull --name "diffpdf.simg" shub://truatpasteurdotfr/singularity-docker-debian9-diffpdf
+singularity pull --name "diffpdf.sif" library://tru/default/singularity-docker-debian9-diffpdf
 ```
